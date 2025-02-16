@@ -1,5 +1,5 @@
 {
-  "name": "@yourname/calculator",
+  "name": "@nate7611/calculator",
   "version": "1.0.0",
   "description": "A simple command-line calculator that performs basic arithmetic operations.",
   "main": "calculator.js",
@@ -27,10 +27,10 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "author": "Your Name",
+  "author": "Nate Downey",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/calculator.git"
+    "url": "git+https://github.com/Nate7611/calculator.git"
   },
   "license": "MIT",
   "devDependencies": {

@@ -1,0 +1,42 @@
+{
+  "name": "@yourname/calculator",
+  "version": "1.0.0",
+  "description": "A simple command-line calculator that performs basic arithmetic operations.",
+  "main": "calculator.js",
+  "bin": {
+    "calculator": "./calculator.js"
+  },
+  "files": [
+    "calculator.js",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest tests/calculator.test.js --globals --run --reporter verbose",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "calculator",
+    "cli",
+    "arithmetic",
+    "vitest",
+    "eslint",
+    "javascript"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/calculator.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "vitest": "^3.0.5"
+  }
+}
